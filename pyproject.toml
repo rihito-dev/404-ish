@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "four04ish"
+version = "0.1.0"
+description = "404-ish: small, cautious HTTP observations without existential conclusions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+404-ish = "four04ish.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
