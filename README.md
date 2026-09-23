@@ -1,5 +1,7 @@
 # 404-ish
 
+[![test](https://github.com/rihito-dev/404-ish/actions/workflows/test.yml/badge.svg)](https://github.com/rihito-dev/404-ish/actions/workflows/test.yml)
+
 **Is it dead? Eh, 404-ish.**
 
 A tiny URL checker that records what happened without pretending to know what
